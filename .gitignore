@@ -1,0 +1,27 @@
+# Node modules (if any)
+node_modules/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Logs and environment
+*.log
+.env
+
+# Build/cache folders
+dist/
+build/
+*.cache
+
+# PHP/SQL files (if applicable)
+vendor/
+*.sql
+
+# Backup/temp files
+*.tmp
+*.bak
