@@ -1,0 +1,204 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #ff5733;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.back-button:hover::before {
+    width: 0;
+    height: 0;
+}
+
+.back-button:hover {
+    background-color: #e05d4f;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.back-button span {
+    position: relative;
+    z-index: 1;
+}
+
+.main-content {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    color: #ff6f61;
+    margin-bottom: 30px;
+}
+
+.category {
+    margin-bottom: 50px;
+}
+
+.category h2 {
+    font-size: 32px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-card i {
+    font-size: 40px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.java { width: 85%; background-color: #b07219; }
+.javascript { width: 80%; background-color: #f7df1e; }
+.csharp { width: 75%; background-color: #1782b4; }
+.cpp { width: 80%; background-color: #00599c; }
+.php { width: 70%; background-color: #777bb3; }
+
+.nodejs { width: 80%; background-color: #68a063; }
+.aspnet { width: 75%; background-color: #5c2d91; }
+
+.mysql { width: 85%; background-color: #4479a1; }
+.mongodb { width: 80%; background-color: #47a248; }
+
+.html { width: 90%; background-color: #e34c26; }
+.css { width: 85%; background-color: #2965f1; }
+.bootstrap { width: 80%; background-color: #563d7c; }
+.wordpress { width: 70%; background-color: #21759b; }
+
+.git { width: 80%; background-color: #f1502f; }
+.postman { width: 75%; background-color: #ff6f61; }
+
+
+.soft-skill-card {
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px;
+}
+
+.soft-skill-card i {
+    font-size: 40px;
+    color: #ff6f61;
+    margin-bottom: 15px;
+}
+
+.soft-skill-card h3 {
+    font-size: 20px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+
+.soft-skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.soft-skill-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.teamwork { width: 90%; background-color: #68a063; }
+.communication { width: 80%; background-color: #f7df1e; }
+.problem-solving { width: 85%; background-color: #f1502f; }
+.time-management { width: 75%; background-color: #00599c; }
+.attention-detail { width: 80%; background-color: #ff5733; }
+
+.footer {
+    background-color: #ff6f61;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.footer a:hover {
+    color: #e05d4f;
+}
+
