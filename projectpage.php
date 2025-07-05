@@ -87,13 +87,14 @@
   <script>AOS.init();</script>
     <footer class="footer">
     <p>Contact me for collaborations or inquiries!</p>
-    <div class="footer-contact">
-      <a href="mailto:ikashadissanayake@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="tel:+9471468101"><i class="fas fa-phone-alt"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/ikasha-dissanayake-84a698335" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.instagram.com/ikashadissanayaka?igsh=MW1iYWlnd3hvbHQ4cA==" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
+     <div class="footer-contact">
+            <a href="mailto:ikashadissanayake@gmail.com" class="fade-in"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+9471468101" class="fade-in"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://github.com/Ikasha123" target="_blank" class="fade-in"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ikasha-dissanayake-84a698335" target="_blank" class="fade-in"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ikashadissanayaka?igsh=MW1iYWlnd3hvbHQ4cA==" target="_blank" class="fade-in"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1GTcZ42wQn/" target="_blank" class="fade-in"><i class="fab fa-facebook"></i></a>
+        </div>
   </footer>
 </body>
 </html>
